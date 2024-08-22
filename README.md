@@ -7,6 +7,6 @@ This is a replica of an interactive shell including many similar features:
 - Variable expansion.<br>
 - Some special modes that can be activated<br>
 
-What was so challenging but valuable from this project was that it was designed the same way as a real shell. For example when a linux shell is running a command or program, it will fork, or copy the main process into two, and then change the second process to fit the task that was called.
+What was so challenging but valuable from this project was that it was designed the same way as a real shell. For example when a linux shell is running a command or program, it will fork/copy the main process into two, and then change the second process to fit the task that was called. This was done the same way using C in this project along with the signal handeling.
 
 run 'make' to compile, see Makefile for more information.
